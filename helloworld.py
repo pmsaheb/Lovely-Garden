@@ -1,8 +1,9 @@
 print("hello world")
 n = 1
 m = 5
-if n < m:
-    print("n = {n} and m = {m}")
+for n in range(m):
+    print(f"n = {n} and m = {m}")
     n += 1
-elif
-    print("end with if part. n = {n} and m = {m}")
+else:
+    print(f"end with if part. n = {n} and m = {m}")
+
